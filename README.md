@@ -7,6 +7,7 @@
 
 ## Installation en local
 ```bash
+cd app/
 npm install
 npm run dev
 ```
