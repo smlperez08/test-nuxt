@@ -1,7 +1,7 @@
 <template>
     <select
         :value="modelValue"
-        class="w-full py-2.5 px-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white"
+        class="w-full py-2.5 px-3 rounded-lg border border-gray-300 bg-white"
         @change="$emit('update:modelValue', ($event.target as HTMLSelectElement).value)"
     >
         <option value="">Tous les continents</option>

@@ -5,7 +5,7 @@
             type="text"
             :value="props.modelValue"
             placeholder="Rechercher un pays..."
-            class="w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white"
+            class="w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-300 bg-white"
             @input="onInput"
         />
     </div>

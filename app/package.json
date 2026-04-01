@@ -1,20 +1,24 @@
 {
-  "name": "test-nuxt",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev --host 0.0.0.0",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.2.2",
-    "graphql-request": "^7.4.0",
-    "nuxt": "^3.21.2",
-    "tailwindcss": "^4.2.2",
-    "vue": "^3.5.31",
-    "vue-router": "^5.0.4"
-  }
+    "name": "test-nuxt",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev --host 0.0.0.0",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.2.2",
+        "graphql-request": "^7.4.0",
+        "nuxt": "^3.21.2",
+        "tailwindcss": "^4.2.2",
+        "vue": "^3.5.31",
+        "vue-router": "^5.0.4"
+    },
+    "devDependencies": {
+        "prettier": "3.8.1"
+    }
 }
